@@ -1,0 +1,61 @@
+.t-color {
+  color: #444444;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 90vh;
+  background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
+    url("../images/hero.jpg") center center/cover;
+
+  .open {
+    cursor: pointer;
+    position: absolute;
+    left: 40px;
+  }
+}
+
+.xmark {
+  cursor: pointer;
+}
+
+.singer .singers h2 {
+  background-color: #e68285;
+  padding-block: 5px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.singer .singers p {
+  background-color: #cccccc;
+  padding: 5px;
+  margin: 0;
+  display: none;
+}
+
+.countdown {
+  background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
+    url("../images/join-us.jpg") center center/cover;
+}
+
+aside {
+  width: 200px;
+  left: -200px;
+}
+
+.countdown .row .inner {
+  border: 2px solid white;
+}
+
+.content ul li {
+  border: 1px solid;
+  margin-inline: 10px;
+}
+
+.content ul li:hover {
+  background-color: rgb(255, 29, 29);
+  color: white;
+}

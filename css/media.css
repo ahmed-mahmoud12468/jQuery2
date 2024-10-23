@@ -1,0 +1,10 @@
+@media screen and (max-width : 360px) {
+    .content ul {
+        display: flex;
+        flex-direction: column;
+        li {
+            margin-block: 10px ;
+            width: fit-content;
+        }
+    }
+}
